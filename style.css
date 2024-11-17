@@ -468,3 +468,30 @@ body {
   }
 }
 /* # Mesmerizing by xposedbones */
+
+@media (prefers-reduced-motion) {
+  .holder .circle {
+    animation: none;
+    transform: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .holder .circle {
+    border-color: black;  
+
+  .holder {
+    outline-color: black; 
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .holder .circle {
+    border-color: white;  
+
+  .holder {
+    outline-color: white; 
+  }
+  }
+}
+}
